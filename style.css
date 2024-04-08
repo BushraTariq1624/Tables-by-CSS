@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+table{
+    height: 200px; 
+    width: 800px;
+    border-collapse: collapse;
+    margin: 100px;
+    border-color: brown;
+    border-width: 5px;
+    text-align: center;
+}
+img:hover{
+    transform: scale(2.5);
+}
+.pic{
+    border-radius: 50px;
+    border-spacing: 20px;
+    border-style: groove;
+    border-color: chartreuse;
+}
+tr.header{
+    background-color: rgb(10, 158, 109);
+    cursor: col-resize;
+}
+tr.row1{
+    background-color: rgb(152, 206, 152);
+    cursor:all-scroll;
+}
+tr.row2{
+    background-color: rgb(21, 199, 199);
+    cursor: grab;
+}
+tr.row3{
+    background-color: rgb(197, 238, 136);
+    cursor: nesw-resize;
+}
+button.b1{
+    background-color: chocolate;
+}
+button.b2{
+    background-color: cornflowerblue;
+}
+button:hover{
+    transform: scale(1.5);
+}
+button{
+    border-radius: 20px;
+}
+tr:hover{
+    background-color: palevioletred;
+    transform: scale(1.1);
+    transition: all 1.3s;
+}
